@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Clean Up File
       run: |
-        rm /app/src/main/assets/18PlusList.txt
+        rm app/src/main/assets/18PlusList.txt
     - name: set up JDK 11
       uses: actions/setup-java@v3
       with:
